@@ -12,7 +12,13 @@
 @import 'moderation.scss';
 @import 'game-text.scss';
 @import 'reports.scss';
-
+:root{
+	--theme-primary:#f2654b;
+	--theme-background-1:#fde1c0;
+	--theme-background-2:#fac9a9;
+	--theme-tertiary:#b15544;
+	--theme-secondary:#b15544;
+}
 .thumb-vertical {
 	cursor: pointer;
 	border-radius: inherit;
@@ -239,6 +245,7 @@
 	.menu-container {
 		background-color: var(--theme-primary);
 		min-height: 42px;
+		padding: 10px 0px;
 		a {
 			cursor: pointer;
 			font-weight: bold;
@@ -882,7 +889,7 @@ div {
 	border: 0;
 	box-shadow: none;
 	overflow: hidden;
-	background-color: var(--theme-primary);
+	background-color: #f2654b;
 	margin: auto;
 	width: 95%;
 	max-width: 1920px;

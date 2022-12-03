@@ -455,7 +455,7 @@ class Settings extends React.Component {
 						backgroundColor: 'hsl(0, 0%, 0%)',
 						textColor: 'hsl(0, 0%, 100%)'
 					});
-					docStyle.setProperty('--theme-primary', 'hsl(225, 73%, 57%)');
+					docStyle.setProperty('--theme-primary', '#f2654b');
 					docStyle.setProperty('--theme-secondary', 'hsl(225, 48%, 57%)');
 					docStyle.setProperty('--theme-tertiary', 'hsl(265, 73%, 57%)');
 					docStyle.setProperty('--theme-background-1', 'hsl(0, 0%, 0%)');

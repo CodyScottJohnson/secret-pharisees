@@ -51,10 +51,7 @@ html(lang="en")
         a.item(href="/game/") Game Lobby
       else
         a.item(href="/observe/") Game Lobby
-      if changelog
-        a.active.item Changelog
-      else
-        a.item(href="/changelog") Changelog
+      
       if rules
         a.active.item Rules
       else
@@ -69,31 +66,6 @@ html(lang="en")
         a.active.item Stats
       else
         a.item(href="/stats") Stats
-
-      if wiki
-        a.active.item Wiki
-      else
-        a.item(href="https://github.com/cozuya/secret-hitler/wiki") Wiki
-
-      if discord
-        a.active.item Discord
-      else
-        a.item(href="https://discord.gg/secrethitlerio") Discord
-
-      if github
-        a.active.item GitHub
-      else
-        a.item(href="https://github.com/cozuya/secret-hitler") GitHub
-
-      if tou
-        a.active.item Terms of Use
-      else
-        a.item(href="/tou") Terms of Use
-
-      if about
-        a.active.item About
-      else
-        a.item(href="/about") About
 
     div.pusher
       if !game
@@ -125,30 +97,11 @@ html(lang="en")
           else
             a.item(href="/stats") Stats
 
-          if wiki
-            a.active.item Wiki
-          else
-            a.item(href="https://github.com/cozuya/secret-hitler/wiki") Wiki
-
-          if discord
-            a.active.item Discord
-          else
-            a.item(href="https://discord.gg/secrethitlerio") Discord
-
-          if github
-            a.active.item GitHub
-          else
-            a.item(href="https://github.com/cozuya/secret-hitler") GitHub
-
-          if tou
-            a.active.item Terms of Use
-          else
-            a.item(href="/tou") Terms of Use
-
-          if about
-            a.active.item About
-          else
-            a.item(href="/about") About
+         
+         
+        
+        
+         
 
 
           if username
